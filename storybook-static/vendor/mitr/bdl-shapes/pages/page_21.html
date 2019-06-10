@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="width=631, height=768" name="viewport" />
+  <meta charset="utf-8" />
+  <link href="../player/book/page.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="data/page_21.js"></script>
+  <script type="text/javascript" src="data/page_21_act.js"></script>
+  <script type="text/javascript" src="../player/book/page.js"></script>
+  <style>
+    .light {
+      position: absolute;
+      left: 131px;
+      top: 475px;
+      width: 795px;
+      height: 589px;
+      background-image: url(images/page_21/page_21_sprite.png);
+      background-repeat: no-repeat;
+      animation: play 2s steps(15) infinite;
+    }
+
+    @keyframes play {
+      from {
+        background-position: 0px;
+      }
+
+      to {
+        background-position: -11925px;
+      }
+    }
+
+    .staticlight {
+      position: absolute;
+      left: 131px;
+      top: 475px;
+      width: 795px;
+      height: 589px;
+      background-image: url(images/page_21/page_21_sprite.png);
+      background-repeat: no-repeat;
+      background-position: -6360px;
+    }
+
+    @keyframes yourAnimation {
+      0% {
+        opacity: 0.1;
+        border: 6px solid green;
+      }
+
+      50% {
+        opacity: 1;
+        border: 6px solid green;
+      }
+    }
+
+    .flag_anim {
+      position: absolute;
+      right: 54px;
+      top: 72px;
+      width: 242px;
+      height: 152px;
+      border: 6px solid #5df832;
+      animation: yourAnimation 3s infinite 0s linear;
+    }
+  </style>
+</head>
+
+<body>
+  <img class="bgimg" src="images/page_21/page_21.jpg" alt="">
+  <div id="light"></div>
+  <div id="flag_anim"></div>
+  <div class="textcls" style="left: 44px; top: 59px;" id="txt_0"></div>
+  <div class="textcls" style="left: 79px; top: 252px;" id="txt_1"></div>
+  <div class="textcls boxtext" style="left: 792px; top: 1021px; transform: rotate(-20deg);" id="txt_2"></div>
+  <div class="textcls pno" style="left: 71px; top: 1247px;" id="txt_3"></div>
+
+
+
+  <div id="_blank"></div>
+  <div class="preloadCls"></div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<div id="route-draganddrop" class="route" v-drag-and-drop:options="dragDropOptions">
+    <div id="otter">
+        <div id="question">
+            <span v-if="!result">{{ question.question[$root.language] }}</span>
+            <span v-if="result">{{ result }}</span>
+        </div>
+    </div>
+
+    <!-- <div class="content-container left" v-if="question.style === 0">
+        <span>{{question.content.textLeft}}</span>
+    </div> -->
+
+    <div class="drop-container left" v-if="question.style !== 0">
+        <span>{{question.content.textLeft}}</span>
+    </div>
+
+    <div class="drop-container right">
+        <span>{{question.content.textRight}}</span>
+
+        <div class="answer" v-bind:class="{ selected: selected[index] }" v-for="(answer, index) in question.answers" :value="index" @mouseenter="$root.playSoundFX('rollover', true)" v-if="isSelectedAnswer(answer, index)">
+            <div v-if="answer.text[$root.language]">{{ answer.text[$root.language] }}</div>
+            <div class="answer-image" v-if="answer.image" :style="{ backgroundImage: 'url(res/' + answer.image + ')' }"></div>
+        </div>
+    </div>
+
+    <div class="answers-container" v-if="!result">
+        <div class="answer" v-bind:class="{ selected: selected[index] }" v-for="(answer, index) in question.answers" :value="index" @mouseenter="$root.playSoundFX('rollover', true)">
+            <div v-if="answer.text[$root.language]">{{ answer.text[$root.language] }}</div>
+            <div class="answer-image" v-if="answer.image" :style="{ backgroundImage: 'url(res/' + answer.image + ')' }"></div>
+        </div>
+    </div>
+
+    <div id="confetti" v-if="result == 'Correct'"></div>
+
+    <div id="submit-container">
+        <!-- <button style="width:70%; margin: 1.5vmin;"  v-on:click="reset()"  v-if="result">
+            OK
+        </button> -->
+    </div>
+</div>

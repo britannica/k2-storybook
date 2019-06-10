@@ -1,0 +1,35 @@
+{
+  "name": "eb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "basePath": "/vendor/fablevision/multichoice/build/"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "fs-extra": "^7.0.0",
+    "rollup": "^1.7.4",
+    "rollup-plugin-babel": "^4.0.1",
+    "rollup-plugin-babel-minify": "^6.0.0",
+    "uglifycss": "0.0.29",
+    "web-resource-inliner": "^4.3.1"
+  },
+  "scripts": {
+    "build": "node ./buildResIndex.js && rollup -c && npm run buildResIndex",
+    "buildResIndex": "node ./buildResIndex.js -basePath="
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/britannica/learning-zone"
+  },
+  "author": "Brian Poole",
+  "license": "ISC",
+  "dependencies": {}
+}
