@@ -7,7 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans); 
 /* Pablo */
 /* Pablo */
 .create-background {
@@ -3722,7 +3722,7 @@ body, html {
   SVG Biome Styles
   */
   /*
-   Animation Keyframes 
+   Animation Keyframes
   */ }
   .MercatorPage .animate_locales_out {
     -webkit-animation: fadeOut 1s;
