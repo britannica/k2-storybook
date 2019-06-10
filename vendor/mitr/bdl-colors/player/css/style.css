@@ -1,0 +1,125 @@
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body, button {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+}
+
+button:enabled {
+  cursor: pointer;
+}
+
+button:disbaled {
+  cursor: default;
+}
+
+.shellWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bookWrapper {
+  /* position: absolute; */
+  position: relative;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  /*overflow: hidden;*/
+}
+
+.bookWrapper .contentWrapper {
+  overflow: auto;
+}
+
+.bookWrapper .loader {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  display: none;
+}
+
+.bookWrapper .loader .loaderImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.bookWrapper .button {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.bookWrapper .prevButton {
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.bookWrapper .nextButton {
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.bookWrapper .contentWrapper .bookPage {
+  display: inline-block;
+  position: relative;
+  border: none;
+}
+
+.bookWrapper .preloadLayer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255);
+  background-image: url(../images/loader.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bookWrapper .playLayer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookWrapper .playButton {
+  width: 632px;
+  height: 630px;
+  background-image: url(../images/play.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

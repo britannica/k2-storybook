@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Encyclopedia Britannica</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes" /> <!-- android -->
+        <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- iOS -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="translucent-black" /> <!-- iOS -->
+        <meta name="HandheldFriendly" content="true" /> <!-- iOS -->
+        <meta http-equiv="cleartype" content="on" /> <!-- IE -->
+
+        <style>
+            body {
+                margin: 0;
+                width: 100vw;
+                height: 100vh;
+                display:flex;
+                align-items:center;
+                justify-content: center;
+                background: #000;
+                /* background: #9bd244; */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Game View -->
+        <div id="game" v-cloak></div>
+    </body>
+
+    <script type="module" src="scripts/main.js"></script>
+</html>

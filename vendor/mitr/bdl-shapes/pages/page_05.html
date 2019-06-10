@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="width=631, height=768" name="viewport" />
+  <meta charset="utf-8" />
+  <link href="../player/book/page.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="data/page_05.js"></script>
+  <script type="text/javascript" src="data/page_05_act.js"></script>
+  <script type="text/javascript" src="../player/book/page.js"></script>
+  <style>
+    .birdanim {
+      position: absolute;
+      left: 14px;
+      top: 76px;
+      width: 1032px;
+      height: 1066px;
+      background-image: url(images/page_05/page_05_sprite.png);
+      background-repeat: no-repeat;
+      animation: play 2s steps(15) infinite;
+    }
+
+    @keyframes play {
+      from {
+        background-position: 0px;
+      }
+
+      to {
+        background-position: -15480px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <img class="bgimg" src="images/page_05/page_05.jpg" alt="">
+  <div class="birdanim" id="birdanim"></div>
+  <div class="textcls" style="left: 71px; top: 68px;" id="txt_0"></div>
+  <div class="textcls pno" style="left: 71px; top: 1247px;  font-size: 24px;" id="txt_1"></div>
+
+
+
+  <div id="_blank"></div><div class="preloadCls"></div>
+  
+
+
+
+
+
+
+</body>
+
+</html>
