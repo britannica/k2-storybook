@@ -6,6 +6,8 @@
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
 /* Pablo */
 /* Pablo */
 .create-background {
@@ -4396,6 +4398,241 @@ button.browse-nav-tab-component {
       margin-bottom: 25px;
       text-align: center;
       padding: 0 5px; } }
+
+.BackToHome {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .BackToHome button {
+    all: unset; }
+  .BackToHome .home-btn {
+    width: 60px; }
+  .BackToHome .branding-btn {
+    width: 400px;
+    margin-left: 30px; }
+  .BackToHome .branding {
+    width: 100%; }
+
+/* Pablo */
+/* Pablo */
+.create-background {
+  background-color: #FDCF56;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_create.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .create-background {
+      min-height: calc(100vh - 75px); } }
+
+.play-background, .play-background-solo {
+  background-color: #4FD3D7;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_play.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .play-background, .play-background-solo {
+      min-height: calc(100vh - 75px); } }
+
+.play-background-browse {
+  background-color: #4FD3D7;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_play.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  height: 100%; }
+
+.read-background, .read-background-solo {
+  background-color: #FC8A89;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .read-background, .read-background-solo {
+      min-height: calc(100vh - 75px); } }
+
+.read-background-browse {
+  background-color: #FC8A89;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  height: 100%; }
+
+.explore-background {
+  background-color: #7FD5A0;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_explore.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .explore-background {
+      min-height: calc(100vh - 75px); } }
+
+.home-background {
+  background-color: #BCE364;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .home-background {
+      min-height: calc(100vh - 75px); } }
+
+* {
+  box-sizing: border-box; }
+
+html, body, #root {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0; }
+
+.App {
+  text-align: center; }
+
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none; }
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; }
+
+.App-link {
+  color: #61dafb; }
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/* Pablo */
+/* Pablo */
+.create-background {
+  background-color: #FDCF56;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_create.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .create-background {
+      min-height: calc(100vh - 75px); } }
+
+.play-background, .play-background-solo {
+  background-color: #4FD3D7;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_play.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .play-background, .play-background-solo {
+      min-height: calc(100vh - 75px); } }
+
+.play-background-browse {
+  background-color: #4FD3D7;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_play.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  height: 100%; }
+
+.read-background, .read-background-solo {
+  background-color: #FC8A89;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .read-background, .read-background-solo {
+      min-height: calc(100vh - 75px); } }
+
+.read-background-browse {
+  background-color: #FC8A89;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  height: 100%; }
+
+.explore-background {
+  background-color: #7FD5A0;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_explore.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .explore-background {
+      min-height: calc(100vh - 75px); } }
+
+.home-background {
+  background-color: #BCE364;
+  background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  min-height: calc(100vh - 90px); }
+  @media screen and (max-width: 1024px) {
+    .home-background {
+      min-height: calc(100vh - 75px); } }
+
+.browse-list-tile-component {
+  margin-bottom: 20px;
+  margin: 20px; }
+  .browse-list-tile-component.read .browse-list-tile-component--card--bottom {
+    background: #6F53A1; }
+  .browse-list-tile-component.play .browse-list-tile-component--card--bottom {
+    background: #1683A0; }
+  .browse-list-tile-component .browse-list-tile-component--card {
+    margin: 0 auto;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+    .browse-list-tile-component .browse-list-tile-component--card .browse-list-tile-component--card--image {
+      height: 182px; }
+    .browse-list-tile-component .browse-list-tile-component--card .browse-list-tile-component--card--bottom {
+      margin-top: 1px;
+      text-align: center;
+      color: #fff;
+      width: 150px;
+      padding: 10px;
+      align-self: flex-end;
+      box-sizing: border-box;
+      vertical-align: middle;
+      height: 100%;
+      font-size: 15px;
+      line-height: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .browse-list-tile-component .browse-list-tile-component--card .browse-list-tile-component--card--bottom div {
+        width: 100%;
+        text-align: center;
+        align-self: center; }
+      .browse-list-tile-component .browse-list-tile-component--card .browse-list-tile-component--card--bottom small {
+        font-size: 12px;
+        line-height: 13px; }
+  .browse-list-tile-component:hover {
+    text-decoration: none; }
 
 /* Pablo */
 /* Pablo */
