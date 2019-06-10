@@ -1,1 +1,0 @@
-var dataVar = {"en-US":{"txt_0":"14"}};var audioData = [];

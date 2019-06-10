@@ -1,4 +1,0 @@
-var dataVar = {"en-US":{"txt_0":"<span id=\"spn_0\"><b>S</b></span>","txt_1":"<span id=\"spn_1\"><b>H</b></span>","txt_2":"<span id=\"spn_2\"><b>A</b></span>","txt_3":"<span id=\"spn_3\"><b>P</b></span>","txt_4":"<span id=\"spn_4\"><b>E</b></span>","txt_5":"<span id=\"spn_5\"><b>S</b></span>","txt_6":"<span id=\"spn_6\"><b>BRITANNICA</b></span>","txt_7":"<span id=\"spn_7\"><b>D</b></span>","txt_8":"<span id=\"spn_8\"><b>I</b></span>","txt_9":"<span id=\"spn_9\"><b>S</b></span>","txt_10":"<span id=\"spn_10\"><b>C</b></span>","txt_11":"<span id=\"spn_11\"><b>O</b></span>","txt_12":"<span id=\"spn_12\"><b>V</b></span>","txt_13":"<span id=\"spn_13\"><b>E</b></span>","txt_14":"<span id=\"spn_14\"><b>R</b></span>","txt_15":"<span id=\"spn_15\"><b>Y</b></span>","txt_16":"<span id=\"spn_16\"><b>LIBRARY</b></span>"}};var audioData = [{start:0, end:0.679056, id:"blank"},
-{start:0.679056, end:1.433858, id:"spn_0"},
-{start:1.433858, end:1.906939, id:"blank"},
-];
