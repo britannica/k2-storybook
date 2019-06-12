@@ -8,7 +8,13 @@
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans);
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -38,7 +44,7 @@
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -48,7 +54,7 @@
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -65,7 +71,7 @@
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -74,7 +80,13 @@
     .home-background {
       min-height: calc(100vh - 75px); } }
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -104,7 +116,7 @@
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -114,7 +126,7 @@
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -131,7 +143,7 @@
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -3644,7 +3656,13 @@ body, html {
   body *, html * {
     box-sizing: border-box; }
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -3674,7 +3692,7 @@ body, html {
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -3684,7 +3702,7 @@ body, html {
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -3701,7 +3719,7 @@ body, html {
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -3785,10 +3803,10 @@ body, html {
                 transform: scale(1);
         border-radius: 8px;
         font-size: 18px;
-        box-shadow: 0px 3px 0px #49731A;
+        box-shadow: 0px 3px 0px #3A5D13;
         background-color: #fff;
-        border: 3px solid #49731A;
-        color: #000000;
+        border: 3px solid #3A5D13;
+        color: #333333;
         width: 220px;
         height: 46px;
         text-align: left; }
@@ -3827,10 +3845,10 @@ body, html {
           -webkit-transition: all 0.5s;
           transition: all 0.5s; }
         .MercatorPage .biome-navigation li button.tropicalForest.active, .MercatorPage .biome-navigation li button.tropicalForest:hover, .MercatorPage .biome-navigation li button.tropicalForest:active {
-          background-color: #43a047;
-          box-shadow: 0px 3px 0px #2b662e;
+          background-color: #328736;
+          box-shadow: 0px 3px 0px #1F5422;
           border: 3px solid;
-          border-color: #2b662e;
+          border-color: #1F5422;
           -webkit-transform: scale(1.1);
                   transform: scale(1.1);
           -webkit-transition: all 0.5s;
@@ -3845,19 +3863,21 @@ body, html {
           -webkit-transition: all 0.5s;
           transition: all 0.5s; }
         .MercatorPage .biome-navigation li button.taiga.active, .MercatorPage .biome-navigation li button.taiga:hover, .MercatorPage .biome-navigation li button.taiga:active {
-          background-color: #9575cd;
-          box-shadow: 0px 3px 0px #5d4980;
+          color: #fff;
+          background-color: #8467B5;
+          box-shadow: 0px 3px 0px #4C3C69;
           border: 3px solid;
-          border-color: #5d4980;
+          border-color: #4C3C69;
           -webkit-transform: scale(1.1);
                   transform: scale(1.1);
           -webkit-transition: all 0.5s;
           transition: all 0.5s; }
         .MercatorPage .biome-navigation li button.tundra.active, .MercatorPage .biome-navigation li button.tundra:hover, .MercatorPage .biome-navigation li button.tundra:hover {
-          background-color: #4db6ac;
-          box-shadow: 0px 3px 0px #2c6962;
+          color: #fff;
+          background-color: #407AA1;
+          box-shadow: 0px 3px 0px #2C536E;
           border: 3px solid;
-          border-color: #2c6962;
+          border-color: #2C536E;
           -webkit-transform: scale(1.1);
                   transform: scale(1.1);
           -webkit-transition: all 0.5s;
@@ -3901,10 +3921,10 @@ body, html {
       -webkit-transition: all 0.5s;
       transition: all 0.5s; }
     .MercatorPage .biome-spotlight-feature.tropicalForest .biome-spotlight-feature--btn {
-      background-color: #43a047;
-      box-shadow: 0px 3px 0px #2b662e;
+      background-color: #328736;
+      box-shadow: 0px 3px 0px #1F5422;
       border: 3px solid;
-      border-color: #2b662e;
+      border-color: #1F5422;
       -webkit-transform: scale(1.1);
               transform: scale(1.1);
       -webkit-transition: all 0.5s;
@@ -3919,19 +3939,20 @@ body, html {
       -webkit-transition: all 0.5s;
       transition: all 0.5s; }
     .MercatorPage .biome-spotlight-feature.taiga .biome-spotlight-feature--btn {
-      background-color: #9575cd;
-      box-shadow: 0px 3px 0px #5d4980;
+      background-color: #8467B5;
+      box-shadow: 0px 3px 0px #4C3C69;
       border: 3px solid;
-      border-color: #5d4980;
+      border-color: #4C3C69;
       -webkit-transform: scale(1.1);
               transform: scale(1.1);
       -webkit-transition: all 0.5s;
       transition: all 0.5s; }
     .MercatorPage .biome-spotlight-feature.tundra .biome-spotlight-feature--btn {
-      background-color: #4db6ac;
-      box-shadow: 0px 3px 0px #2c6962;
+      color: #fff;
+      background-color: #407AA1;
+      box-shadow: 0px 3px 0px #2C536E;
       border: 3px solid;
-      border-color: #2c6962;
+      border-color: #2C536E;
       -webkit-transform: scale(1.1);
               transform: scale(1.1);
       -webkit-transition: all 0.5s;
@@ -3997,7 +4018,7 @@ body, html {
   .MercatorPage #grassland_boxes > * {
     cursor: pointer; }
   .MercatorPage #neatline {
-    stroke: #49731A;
+    stroke: #48731B;
     stroke-width: 3.5px;
     fill: none; }
   .MercatorPage .box.active {
@@ -4014,16 +4035,16 @@ body, html {
     background-color: #9ccc66; }
   .MercatorPage .trop_forest,
   .MercatorPage .tropicalForest {
-    fill: #43a047;
-    background-color: #43a047;
+    fill: #328736;
+    background-color: #328736;
     color: #fff; }
   .MercatorPage .taiga {
-    fill: #9575cd;
-    background-color: #9575cd;
+    fill: #8467B5;
+    background-color: #8467B5;
     color: #fff; }
   .MercatorPage .tundra {
-    fill: #4db6ac;
-    background-color: #4db6ac; }
+    fill: #407AA1;
+    background-color: #407AA1; }
   .MercatorPage .water {
     fill: #b3e5fc;
     background-color: #b3e5fc; }
@@ -4129,7 +4150,7 @@ body, html {
           animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  border: 4px solid #49731A; }
+  border: 4px solid #48731B; }
   .MercatorPageSplash h1 {
     width: 50%;
     color: #D96C00;
@@ -4190,7 +4211,13 @@ body, html {
   to {
     width: 1.25em; } }
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -4220,7 +4247,7 @@ body, html {
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4230,7 +4257,7 @@ body, html {
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4247,7 +4274,7 @@ body, html {
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4270,17 +4297,17 @@ button.browse-nav-tab-component {
   text-align: left;
   margin-bottom: 25px; }
   button.browse-nav-tab-component.play {
-    box-shadow: 0px 3px 0px #0D5F8B;
-    border: 3px solid #0D5F8B; }
+    box-shadow: 0px 3px 0px #0E5F8A;
+    border: 3px solid #0E5F8A; }
   button.browse-nav-tab-component.tundra {
-    box-shadow: 0px 3px 0px #2c6962;
-    border: 3px solid #2c6962; }
+    box-shadow: 0px 3px 0px #2C536E;
+    border: 3px solid #2C536E; }
   button.browse-nav-tab-component.taiga {
-    box-shadow: 0px 3px 0px #5d4980;
-    border: 3px solid #5d4980; }
+    box-shadow: 0px 3px 0px #4C3C69;
+    border: 3px solid #4C3C69; }
   button.browse-nav-tab-component.tropical-rain-forest {
-    box-shadow: 0px 3px 0px #2b662e;
-    border: 3px solid #2b662e; }
+    box-shadow: 0px 3px 0px #1F5422;
+    border: 3px solid #1F5422; }
   button.browse-nav-tab-component.temperate-forest {
     box-shadow: 0px 3px 0px #628040;
     border: 3px solid #628040; }
@@ -4291,8 +4318,8 @@ button.browse-nav-tab-component {
     box-shadow: 0px 3px 0px #a66d19;
     border: 3px solid #a66d19; }
   button.browse-nav-tab-component.read {
-    box-shadow: 0px 3px 0px #4B427A;
-    border: 3px solid #4B427A; }
+    box-shadow: 0px 3px 0px #4A4279;
+    border: 3px solid #4A4279; }
   button.browse-nav-tab-component svg,
   button.browse-nav-tab-component .svg-inline--fa {
     width: 1.325em !important;
@@ -4310,51 +4337,51 @@ button.browse-nav-tab-component {
         margin-left: 0;
         display: none; } }
   button.browse-nav-tab-component.play.active, button.browse-nav-tab-component.play:hover, button.browse-nav-tab-component.play:active {
-    color: #000000;
-    background-color: #1783A1;
-    box-shadow: 0px 3px 0px #0D5F8B;
+    color: white;
+    background-color: #167F9C;
+    box-shadow: 0px 3px 0px #0E5F8A;
     border: 3px solid;
-    border-color: #0D5F8B;
+    border-color: #0E5F8A;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s; }
   button.browse-nav-tab-component.read.active, button.browse-nav-tab-component.read:hover, button.browse-nav-tab-component.read:active {
-    color: #000000;
-    background-color: #9863DB;
-    box-shadow: 0px 3px 0px #4B427A;
+    color: #fff;
+    background-color: #6E52A0;
+    box-shadow: 0px 3px 0px #4A4279;
     border: 3px solid;
-    border-color: #4B427A;
+    border-color: #4A4279;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s; }
   button.browse-nav-tab-component.tundra.active, button.browse-nav-tab-component.tundra:hover, button.browse-nav-tab-component.tundra:active {
     color: #000000;
-    background-color: #4db6ac;
-    box-shadow: 0px 3px 0px #2c6962;
+    background-color: #407AA1;
+    box-shadow: 0px 3px 0px #2C536E;
     border: 3px solid;
-    border-color: #2c6962;
+    border-color: #2C536E;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s; }
   button.browse-nav-tab-component.taiga.active, button.browse-nav-tab-component.taiga:hover, button.browse-nav-tab-component.taiga:active {
     color: #000000;
-    background-color: #9575cd;
-    box-shadow: 0px 3px 0px #5d4980;
+    background-color: #8467B5;
+    box-shadow: 0px 3px 0px #4C3C69;
     border: 3px solid;
-    border-color: #5d4980;
+    border-color: #4C3C69;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s; }
   button.browse-nav-tab-component.tropical-rain-forest.active, button.browse-nav-tab-component.tropical-rain-forest:hover, button.browse-nav-tab-component.tropical-rain-forest:active {
     color: #000000;
-    background-color: #43a047;
-    box-shadow: 0px 3px 0px #2b662e;
+    background-color: #328736;
+    box-shadow: 0px 3px 0px #1F5422;
     border: 3px solid;
-    border-color: #2b662e;
+    border-color: #1F5422;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     -webkit-transition: all 0.5s;
@@ -4412,7 +4439,13 @@ button.browse-nav-tab-component {
   .BackToHome .branding {
     width: 100%; }
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -4442,7 +4475,7 @@ button.browse-nav-tab-component {
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4452,7 +4485,7 @@ button.browse-nav-tab-component {
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4469,7 +4502,7 @@ button.browse-nav-tab-component {
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4526,7 +4559,13 @@ html, body, #root {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -4556,7 +4595,7 @@ html, body, #root {
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4566,7 +4605,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4583,7 +4622,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4596,9 +4635,9 @@ html, body, #root {
   margin-bottom: 20px;
   margin: 20px; }
   .browse-list-tile-component.read .browse-list-tile-component--card--bottom {
-    background: #6F53A1; }
+    background: #6E52A0; }
   .browse-list-tile-component.play .browse-list-tile-component--card--bottom {
-    background: #1683A0; }
+    background: #167F9C; }
   .browse-list-tile-component .browse-list-tile-component--card {
     margin: 0 auto;
     width: 150px;
@@ -4632,7 +4671,13 @@ html, body, #root {
   .browse-list-tile-component:hover {
     text-decoration: none; }
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -4662,7 +4707,7 @@ html, body, #root {
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4672,7 +4717,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4689,7 +4734,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4750,7 +4795,13 @@ html, body, #root {
       line-height: 3.5vw;
       margin-top: 1vw; } }
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -4780,7 +4831,7 @@ html, body, #root {
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4790,7 +4841,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4807,7 +4858,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4855,7 +4906,13 @@ html, body, #root {
         line-height: 3.5vw;
         padding: 9px 0 9px 0; } }
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -4885,7 +4942,7 @@ html, body, #root {
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4895,7 +4952,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4912,7 +4969,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -4986,7 +5043,13 @@ html, body, #root {
     margin-top: 50px; }
 
 
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
+/*------------------------*/
 /* Pablo */
+/* Hover Transition */
+/* Hover Transition */
 /* Pablo */
 .create-background {
   background-color: #FDCF56;
@@ -5016,7 +5079,7 @@ html, body, #root {
   height: 100%; }
 
 .read-background, .read-background-solo {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -5026,7 +5089,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .read-background-browse {
-  background-color: #FC8A89;
+  background-color: #D299E6;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_read.png");
   background-repeat: repeat;
   background-size: 120px;
@@ -5043,7 +5106,7 @@ html, body, #root {
       min-height: calc(100vh - 75px); } }
 
 .home-background {
-  background-color: #BCE364;
+  background-color: #FDCF56;
   background-image: url("https://cdn-dev.britannica.com/learning-zone/images/Shell/learning_zone_2_page_bg_home.png");
   background-repeat: repeat;
   background-size: 120px;
